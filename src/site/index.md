@@ -1,10 +1,9 @@
 ---
-title: Google Sheets ➡️ Site. (With Eleventy)
+title: Google Sheets ➡️ Site 
 layout: default
 ---
 
-
-
+# Build with Netlify, Eleventry, Telegram and Google Sheet API
 ### Text
 <ul class="listing">
 {%- for item in sheet.Text -%}
