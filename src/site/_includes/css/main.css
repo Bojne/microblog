@@ -82,4 +82,6 @@ a:focus {
   border-bottom: solid 1px #ff8c00;
 }
 
-
+span {
+  color: #d3d3d3;
+}
