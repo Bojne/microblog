@@ -31,10 +31,9 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 
 
 
-> Build with Netlify, Eleventry, Telegram API, Google Sheet API and Zapier.  | [Github Repo](https://github.com/Bojne/telegram-to-site)
 
 
-> Made by [Yueh Han Huang](yhhuang.me) 🌱
+> Made by [Yueh Han Huang](yhhuang.me) 🌱  | [View Github Repo](https://github.com/Bojne/telegram-to-site)
 
 <details>
 <summary> <b>View Technology Stack:</b> </summary>
