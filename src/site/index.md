@@ -9,6 +9,8 @@ The process above is fully automated 🔁. **It makes the documentation process 
 
 This project could work as a *journal, quote collection, bookmark, or microblog*. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status)](https://app.netlify.com/sites/bmk/deploys)
+
 
 ### Text
 <ul class="listing">
