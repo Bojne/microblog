@@ -1,5 +1,5 @@
 ---
-title: Telegram Message ➡️ Site  
+title: Yueh-Han's Microblog
 layout: default
 ---
 
@@ -26,6 +26,12 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 {%- endfor -%}
 </ul>
 
+### Ideas
+<ul class="listing">
+{%- for item in sheet.idea -%}
+   <li>{{ item.message }}<span> - {{ item.time }}<span></li>
+{%- endfor -%}
+</ul>
 
 <br>
 
@@ -50,6 +56,9 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 </ul>
 
 </details>
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog)
+
 
 
 

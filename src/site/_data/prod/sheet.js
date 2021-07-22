@@ -16,12 +16,15 @@ module.exports = () => {
       .then((response) => {
         // massage the data from the Google Sheets API into
         // a shape that will more convenient for us in our SSG.
-        var data = {
-          Text: [],
-          Link: [],
-        };
+      
+
+        data = {};
         response.data.feed.entry.forEach((item) => {
-          data[item.gsx$type.$t].push({
+          type = item.gsx$type.$t
+          if (!(type in data)){
+            data[type] = []
+          }
+          data[type].push({
             time: item.gsx$time.$t,
             message: item.gsx$message.$t,
           });
