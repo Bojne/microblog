@@ -9,7 +9,12 @@ The process above is fully automated 🔁. **It makes the documentation process 
 
 This project could work as a *journal, quote collection, bookmark, or microblog*. 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status)](https://app.netlify.com/sites/bmk/deploys)
+<center class='noStyle'>
+<a href='https://app.netlify.com/sites/bmk/deploys'>
+<img src='https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status'></img>
+ </a>
+ </center>
+
 
 
 {%- for type, arr in sheet -%}
@@ -37,7 +42,7 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 
 
 
-> Made by [Yueh Han Huang](yhhuang.me) 🌱  | [View Github Repo](https://github.com/Bojne/telegram-to-site)
+> Made by [Yueh Han Huang](yhhuang.me) 🌱  | [View Github Repo](https://github.com/Bojne/microblog)
 
 <details>
 <summary> <b>View Technology Stack:</b> </summary>
@@ -48,12 +53,15 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
   <li>Google Script: Connect Telegram with google sheet</li>  
   <li>Netlify: Deployment</li>
   <li>Eleventry: Site generator</li>
-  <li>Zapier: Connect the Google Sheet with Netlify project</li>
 </ul>
 
 </details>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog)
+<center>
+<a href='https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog'>
+<img src='https://www.netlify.com/img/deploy/button.svg'></img>
+ </a>
+ </center>
 
 
 

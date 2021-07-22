@@ -65,6 +65,10 @@ p {
   margin-top: 1em;
 }
 
+.noStyle{
+  border-bottom: solid 0px #ffdcb2;
+}
+
 ul,
 ol {
   padding-left: 1em;
@@ -74,13 +78,19 @@ a:link,
 a:visited {
   color: #ff8c00;
   text-decoration: none;
-  border-bottom: solid 1px #ffdcb2;
   white-space: nowrap;
 }
 a:hover,
 a:focus {
   color: #ff8c00;
   border-bottom: solid 1px #ff8c00;
+}
+
+li a:link, a:visited{
+  border-bottom: solid 1px #ffdcb2;
+}
+p a:link, a:visited{
+  border-bottom: solid 1px #ffdcb2;
 }
 
 span {
