@@ -1,28 +1,24 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/acfc2936-e6da-4242-88a5-ef27b3765059/deploy-status)](https://app.netlify.com/sites/read-from-google-sheets/deploys)
 
-# Read from Google Sheets API with Eleventy
+# Microblog 
+An microblog power by Netlify, Telegram and Google Sheet. 
 
-> Example site: https://read-from-google-sheets.netlify.com/
 
-This site is an example of using [Eleventy's JavaScript Data Files](https://www.11ty.io/docs/data-js/) which simplify sourcing content from remote data sources and making them available as  objects to use globally across an Eleventy site.
-
-The site is pulling content from a read-only Google Sheets feed at build time.
 
 
 ## Instructions
 
 To get your own instance of this 11ty example project cloned and deploying to Netlify very quickly, just click the button below and follow the instructions.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/example-read-from-sheets)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog)
 
-
-## Wait, what happens when I click that button?
-
-Good question. Here's what it will do...
+<details>
+<summary> Wait, what happens when I click that button?`</summary>
 
 1. Netlify will clone the git repository of this project into your Github account. It will be asking for permission to add the repo for you.
-2. We'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
+2. Netlify will then create a site for you (for free). 
+3. If you add anything to the cloned repo, Netlify will rebuild site for you. 
+</details>
 
 ## Changing the data source
 
@@ -43,7 +39,6 @@ There are a couple of steps required to expose the content from your Google Shee
 
 - [Node and NPM](https://nodejs.org/)
 
-
 ## Running locally
 
 ```bash
@@ -57,4 +52,7 @@ npm run seed
 npm run start
 ```
 
+### Acknowledgement 
+
+This project is building on [Phil's repo](https://github.com/philhawksworth/example-read-from-sheets). 
 
