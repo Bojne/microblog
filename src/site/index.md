@@ -12,26 +12,22 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status)](https://app.netlify.com/sites/bmk/deploys)
 
 
-### Text
-<ul class="listing">
-{%- for item in sheet.Text -%}
-  <li>{{ item.message }}<span> - {{ item.time }}<span></li>
-{%- endfor -%}
-</ul>
+{%- for type, arr in sheet -%}
+  <h3>{{ type | capitalize }}</h3>
 
-### Links
-<ul class="listing">
-{%- for item in sheet.Link -%}
-  <li><a href={{item.message}} target="_blank">{{ item.message }} </a> <span> - {{ item.time }}<span> </li>
-{%- endfor -%}
+  <ul class="listing">
+  {% if type =='Link' %}
+  {%- for item in sheet.Link | reverse -%}
+    <li><a href={{item.message}} target="_blank">{{ item.message }} </a> <span> - {{ item.time }}<span> </li>
+    {%- endfor -%}
+  {% endif %}
+  {% if type!= 'Link' %}
+    {%- for item in arr | reverse -%}
+    <li>{{ item.message }}<span> - {{ item.time }}<span></li>
+    {%- endfor -%}
+  {% endif %}
 </ul>
-
-### Ideas
-<ul class="listing">
-{%- for item in sheet.idea -%}
-   <li>{{ item.message }}<span> - {{ item.time }}<span></li>
 {%- endfor -%}
-</ul>
 
 <br>
 
