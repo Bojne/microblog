@@ -1,7 +1,7 @@
 {
-  "name": "telegram-site-via-sheet",
+  "name": "Microblog",
   "version": "0.0.1",
-  "description": "An example of sourcing data from Google Sheets for use in Eleventy at build time",
+  "description": "An example of sourcing data from Airtable for use in Eleventy at build time",
   "author": "Yueh Han Huang",
   "license": "MIT",
   "scripts": {
