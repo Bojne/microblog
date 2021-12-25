@@ -1,6 +1,11 @@
 const seed = require("../../../utils/save-seed.js");
 var Airtable = require("airtable");
 
+const AIRTABLE_API_KEY = process.env.AIRTABLE_API_KEY;
+if (!AIRTABLE_API_KEY) {
+  console.error("No Airtable API key found!");
+}
+
 Airtable.configure({
   endpointUrl: "https://api.airtable.com",
   apiKey: process.env.AIRTABLE_API_KEY,
@@ -42,6 +47,7 @@ base("content")
         console.error(err);
         return;
       }
+      console.log(`Loading data... 😍`);
       seed(JSON.stringify(data), `${__dirname}/../dev/sheet.json`);
     }
   );
