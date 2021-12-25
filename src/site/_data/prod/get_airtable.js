@@ -48,6 +48,7 @@ module.exports = function () {
           console.error(err);
           return;
         }
+        console.log(`Airtable key exist: ${AIRTABLE_API_KEY != null}`);
         console.log(`Loading data... 😍`);
         seed(JSON.stringify(data), `${__dirname}/../dev/sheet.json`);
       }
