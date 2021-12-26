@@ -17,12 +17,12 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 
 
 
-{%- for type, arr in sheet -%}
+{%- for type, arr in airtable_source -%}
   <h3>{{ type | capitalize }}</h3>
 
   <ul class="listing">
   {% if type =='Link' %}
-  {%- for item in sheet.Link | reverse -%}
+  {%- for item in airtable_source.Link | reverse -%}
     <li><a href={{item.message}} target="_blank">{{ item.message }} </a> <span> - {{ item.time }}<span> </li>
     {%- endfor -%}
   {% endif %}
