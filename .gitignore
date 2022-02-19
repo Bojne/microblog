@@ -1,3 +1,6 @@
 node_modules/
 /dist
 /.vscode
+.env
+./src/site/_data/dev/sheet.json
+token.json
