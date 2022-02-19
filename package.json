@@ -12,13 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bojne/telegram-to-site"
+    "url": "https://github.com/Bojne/microblog"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
     "airtable": "^0.11.1",
     "autoprefixer": "^9.6.0",
     "cssnano": "^4.1.10",
+    "googleapis": "39",
     "html-minifier": "^4.0.0"
   },
   "devDependencies": {

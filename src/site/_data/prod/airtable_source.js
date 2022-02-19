@@ -17,7 +17,7 @@ module.exports = function () {
     base("content")
       .select({
         // Selecting the first 5 records in Grid view:
-        maxRecords: 99,
+        maxRecords: 500,
         view: "Grid view",
         cellFormat: "json",
       })
@@ -31,7 +31,7 @@ module.exports = function () {
               data[type] = [];
             }
             data[type].push({
-              time: record.get("time"),
+              time: record.get("time").split("T"),
               message: record.get("message"),
             });
             // console.log("Retrieved", record.get("type"));
@@ -45,12 +45,10 @@ module.exports = function () {
           if (err) {
             console.error(err);
             reject(err);
-            return;
           }
           console.log(`Airtable key exist: ${AIRTABLE_API_KEY != null}`);
           console.log(`Loading data... 😍`);
           seed(JSON.stringify(data), `${__dirname}/../dev/sheet.json`);
-          seed(JSON.stringify(data), `${__dirname}/../prod/sheet.json`);
           resolve(data);
         }
       );
