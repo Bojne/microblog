@@ -3,8 +3,9 @@ title: Yueh-Han's Microblog
 layout: default
 ---
 
-This site is **generated** from a telegram chat ⚙️. When I send a
-This project could work as a *journal, quote collection, bookmark, or microblog*. 
+This site is **generated** from a telegram chat ⚙️. 
+
+This is a developing project for my *blog(micro), quote collection, bookmark, or cool links*. More details on the open sourced repo: [@bojne/microblog](https://github.com/Bojne/microblog)
 
 <center class='noStyle'>
 <a href='https://app.netlify.com/sites/bmk/deploys'>
@@ -39,19 +40,7 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
 
 
 
-> Made by [Yueh Han Huang](yhhuang.me) 🌱  | [View Github Repo](https://github.com/Bojne/microblog)
-
-<details>
-<summary> <b>View Technology Stack:</b> </summary>
-  
-<ul class='listing'>
-  <li>Telegram: Input interface</li>  
-  <li>Google Sheets: The editable database </li>
-  <li>Netlify: Deployment</li>
-  <li>Eleventry: Site generator</li>
-</ul>
-
-</details>
+> Developed by [Yueh Han Huang](https://yhhuang.me)
 
 <center>
 <a href='https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog'>
