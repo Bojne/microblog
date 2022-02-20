@@ -27,7 +27,7 @@ async function asyncGetData() {
       data["date"];
     }
   });
-  seed(JSON.stringify(data), `${__dirname}/../dev/sheet.json`);
+  seed(JSON.stringify(data), `${__dirname}/../prod/sheet.json`);
 }
 
 asyncGetData();
