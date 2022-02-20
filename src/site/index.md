@@ -23,12 +23,12 @@ This project could work as a *journal, quote collection, bookmark, or microblog*
   <ul class="listing">
   {% if type =='Link' %}
   {%- for item in sheet.Link | reverse -%}
-    <li><a href={{item.message}} target="_blank">{{ item.message }} </a> <span> - {{ item.time }}<span> </li>
+    <li><a href={{item.text}} target="_blank">{{ item.text }} </a> <span> - {{ item.time }}<span> </li>
     {%- endfor -%}
   {% endif %}
   {% if type!= 'Link' %}
     {%- for item in arr | reverse -%}
-    <li>{{ item.message }}<span> - {{ item.time }}<span></li>
+    <li>{{ item.text }}<span> - {{ item.time }}<span></li>
     {%- endfor -%}
   {% endif %}
 </ul>
