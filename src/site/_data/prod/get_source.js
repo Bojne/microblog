@@ -4,9 +4,10 @@ const { google } = require("googleapis");
 async function asyncGetData() {
   const api_key = process.env.SHEET_API_KEY;
   const range = process.env.RANGE;
+  const my_id = process.env.MY_TG_ID;
 
   if (!api_key || !range) {
-    console.error("Don't have a valid google api key in envrionment");
+    console.error("Don't have a valid envrionment variable");
   }
   const sheets = google.sheets({
     version: "v4",
@@ -18,7 +19,7 @@ async function asyncGetData() {
   });
   data = {};
   response.data.values.forEach(([type, time, id, text]) => {
-    if (id == process.env.MY_TG_ID && text) {
+    if (id == my_id && text) {
       if (!(type in data)) {
         data[type] = [];
       }
