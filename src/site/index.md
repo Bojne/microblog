@@ -37,9 +37,6 @@ This is a developing project for my *blog(micro), quote collection, bookmark, or
 ---
 
 
-
-
-
 > Developed by [Yueh Han Huang](https://yhhuang.me)
 
 <center>
