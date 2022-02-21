@@ -8,6 +8,7 @@ async function asyncGetData() {
 
   if (!api_key || !range) {
     console.error("Don't have a valid envrionment variable");
+    console.log({ api_key: api_key != null, range: range });
   }
   const sheets = google.sheets({
     version: "v4",
