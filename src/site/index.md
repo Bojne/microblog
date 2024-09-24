@@ -3,16 +3,15 @@ title: Yueh-Han's Microblog
 layout: default
 ---
 
-This site is **generated** from a telegram chat ⚙️. 
-
-This is a developing project for my *blog(micro), quote collection, bookmark, or cool links*. More details on the open sourced repo: [@bojne/microblog](https://github.com/Bojne/microblog)
+This is an experimental project for "build website with simple telegram message. [Source Code](https://github.com/Bojne/microblog);
 
 <center class='noStyle'>
-<a href='https://app.netlify.com/sites/bmk/deploys'>
-<img src='https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status'></img>
- </a>
+  <a href='https://app.netlify.com/sites/bmk/deploys'>
+    <img src='https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status'></img>
+  </a>
  </center>
 
+  ![Vercel Deploy](https://deploy-badge.vercel.app/vercel/bmk-telegram)
 
 
 {%- for type, arr in sheet -%}
@@ -37,7 +36,8 @@ This is a developing project for my *blog(micro), quote collection, bookmark, or
 ---
 
 
-> Developed by [Yueh Han Huang](https://yhhuang.me)
+> Developed by [Yueh Han Huang](https://bojne.com)
+
 
 <center>
 <a href='https://app.netlify.com/start/deploy?repository=https://github.com/Bojne/microblog'>
