@@ -3,7 +3,7 @@ title: Yueh-Han's Microblog
 layout: default
 ---
 
-Experimenting: "build website with simple telegram message. [Source Code](https://github.com/Bojne/microblog). 
+Experimenting: "build website with simple telegram message." [Source Code](https://github.com/Bojne/microblog). 
 
 <center class='noStyle'>
   <a href='https://app.netlify.com/sites/bmk/deploys'>
