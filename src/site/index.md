@@ -3,14 +3,13 @@ title: Yueh-Han's Microblog
 layout: default
 ---
 
-Experimenting: "build website with simple telegram message. 
+Experimenting: "build website with simple telegram message. [Source Code](https://github.com/Bojne/microblog). 
 
 <center class='noStyle'>
   <a href='https://app.netlify.com/sites/bmk/deploys'>
     <img src='https://api.netlify.com/api/v1/badges/8f688436-973d-4ab9-be07-d4013ccaf8fe/deploy-status'></img>
   </a>
   <img src="https://deploy-badge.vercel.app/vercel/bmk-telegram" alt="Vercel Deploy"></img>
-  [Source Code](https://github.com/Bojne/microblog).
  </center>
 
 
